@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Documentary</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Documentary</h1></center>
+<div class="card-container">
+
+<!-- 1. Man on Wire -->
+<div class="card">
+  <img src="c 145.jpg" alt="Man on Wire Poster" />
+  <h1>Man on Wire</h1>
+  <p>by James Marsh</p>
+  <details>
+    <summary>About</summary>
+    <p>Chronicles Philippe Petit's daring high-wire walk between the Twin Towers in 1974, blending suspense and artistry.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. Summer of Soul -->
+<div class="card">
+  <img src="c 146.jpg" alt="Summer of Soul Poster" />
+  <h1>Summer of Soul</h1>
+  <p>by Ahmir "Questlove" Thompson</p>
+  <details>
+    <summary>About</summary>
+    <p>Unearths the 1969 Harlem Cultural Festival, celebrating Black music and culture with electrifying archival footage.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. I Am Not Your Negro -->
+<div class="card">
+  <img src="c 147.jpg" alt="I Am Not Your Negro Poster" />
+  <h1>I Am Not Your Negro</h1>
+  <p>by Raoul Peck</p>
+  <details>
+    <summary>About</summary>
+    <p>Uses James Baldwin’s writings to explore race in America, narrated by Samuel L. Jackson.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. Fire of Love -->
+<div class="card">
+  <img src="c 148.jpg" alt="Fire of Love Poster" />
+  <h1>Fire of Love</h1>
+  <p>by Sara Dosa</p>
+  <details>
+    <summary>About</summary>
+    <p>Follows two volcanologists whose passion for each other and erupting Earth led to stunning discoveries—and tragedy.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. Free Solo -->
+<div class="card">
+  <img src="c 149.jpg" alt="Free Solo Poster" />
+  <h1>Free Solo</h1>
+  <p>by Elizabeth Chai Vasarhelyi & Jimmy Chin</p>
+  <details>
+    <summary>About</summary>
+    <p>Documents Alex Honnold’s breathtaking climb of El Capitan without ropes or safety gear.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. The Social Dilemma -->
+<div class="card">
+  <img src="c 150.jpg" alt="Social Dilemma Poster" />
+  <h1>The Social Dilemma</h1>
+  <p>by Jeff Orlowski</p>
+  <details>
+    <summary>About</summary>
+    <p>Explores the dark side of social media and its impact on society, mental health, and democracy.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. 13th -->
+<div class="card">
+  <img src="c 151.jpg" alt="13th Poster" />
+  <h1>13th</h1>
+  <p>by Ava DuVernay</p>
+  <details>
+    <summary>About</summary>
+    <p>Examines the intersection of race, justice, and mass incarceration in the U.S., named after the 13th Amendment.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. The Act of Killing -->
+<div class="card">
+  <img src="c 152.jpg" alt="Act of Killing Poster" />
+  <h1>The Act of Killing</h1>
+  <p>by Joshua Oppenheimer</p>
+  <details>
+    <summary>About</summary>
+    <p>Former death squad leaders reenact their crimes in surreal cinematic styles, confronting their past.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. Blackfish -->
+<div class="card">
+  <img src="c 153.jpg" alt="Blackfish Poster" />
+  <h1>Blackfish</h1>
+  <p>by Gabriela Cowperthwaite</p>
+  <details>
+    <summary>About</summary>
+    <p>Investigates the captivity of killer whales and the ethical questions surrounding marine parks.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. The Cove -->
+<div class="card">
+  <img src="c 154.jpg" alt="The Cove Poster" />
+  <h1>The Cove</h1>
+  <p>by Louie Psihoyos</p>
+  <details>
+    <summary>About</summary>
+    <p>Exposes the hidden dolphin slaughter in Taiji, Japan, using undercover tactics and gripping storytelling.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. Won’t You Be My Neighbor? -->
+<div class="card">
+  <img src="c 155.jpg" alt="Won’t You Be My Neighbor Poster" />
+  <h1>Won’t You Be My Neighbor?</h1>
+  <p>by Morgan Neville</p>
+  <details>
+    <summary>About</summary>
+    <p>A heartwarming look at Fred Rogers and the legacy of kindness he left through his children’s show.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. Flee -->
+<div class="card">
+  <img src="c 156.jpg" alt="Flee Poster" />
+  <h1>Flee</h1>
+  <p>by Jonas Poher Rasmussen</p>
+  <details>
+    <summary>About</summary>
+    <p>An animated documentary about a refugee’s hidden past and his journey to freedom and identity.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. The Rescue -->
+<div class="card">
+  <img src="c 157.jpg" alt="The Rescue Poster" />
+  <h1>The Rescue</h1>
+  <p>by Elizabeth Chai Vasarhelyi & Jimmy Chin</p>
+  <details>
+    <summary>About</summary>
+    <p>Recounts the miraculous 2018 cave rescue of 12 Thai boys and their soccer coach trapped underground.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Grizzly Man -->
+<div class="card">
+  <img src="c 158.jpg" alt="Grizzly Man Poster" />
+  <h1>Grizzly Man</h1>
+  <p>by Werner Herzog</p>
+  <details>
+    <summary>About</summary>
+    <p>Explores the life and tragic death of Timothy Treadwell, who lived among grizzly bears in Alaska.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. Hoop Dreams -->
+<div class="card">
+  <img src="c 159.jpg" alt="Hoop Dreams Poster" />
+  <h1>Hoop Dreams</h1>
+  <p>by Steve James</p>
+  <details>
+    <summary>About</summary>
+    <p>Follows two Chicago teens chasing basketball stardom, revealing the challenges of race, class, and ambition.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. 20 Feet from Stardom -->
+<div class="card">
+  <img src="c 160.jpg" alt="20 Feet from Stardom Poster" />
+  <h1>20 Feet from Stardom</h1>
+  <p>by Morgan Neville</p>
+  <details>
+    <summary>About</summary>
+    <p>Shines a spotlight on the untold stories of backup singers behind some of the greatest musical legends.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

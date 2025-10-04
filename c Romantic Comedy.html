@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Romantic Comedy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Romantic Comedy</h1></center>
+<div class="card-container">
+
+<!-- 1. When Harry Met Sally -->
+<div class="card">
+  <img src="c 113.jpg" alt="When Harry Met Sally Poster" />
+  <h1>When Harry Met Sally</h1>
+  <p>by Rob Reiner</p>
+  <details>
+    <summary>About</summary>
+    <p>Two friends navigate years of chance encounters, debating whether men and women can just be friends.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. Pretty Woman -->
+<div class="card">
+  <img src="c 114.jpg" alt="Pretty Woman Poster" />
+  <h1>Pretty Woman</h1>
+  <p>by Garry Marshall</p>
+  <details>
+    <summary>About</summary>
+    <p>A wealthy businessman falls for a spirited escort, transforming both their lives in unexpected ways.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. Notting Hill -->
+<div class="card">
+  <img src="c 115.jpg" alt="Notting Hill Poster" />
+  <h1>Notting Hill</h1>
+  <p>by Roger Michell</p>
+  <details>
+    <summary>About</summary>
+    <p>A humble bookstore owner falls in love with a famous actress in this charming London-set romance.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. 10 Things I Hate About You -->
+<div class="card">
+  <img src="c 116.jpg" alt="10 Things Poster" />
+  <h1>10 Things I Hate About You</h1>
+  <p>by Gil Junger</p>
+  <details>
+    <summary>About</summary>
+    <p>A modern high school twist on Shakespeare’s “Taming of the Shrew” with rebellious romance and wit.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. Love Actually -->
+<div class="card">
+  <img src="c 117.jpg" alt="Love Actually Poster" />
+  <h1>Love Actually</h1>
+  <p>by Richard Curtis</p>
+  <details>
+    <summary>About</summary>
+    <p>Multiple love stories unfold in London during the holidays, weaving joy, heartbreak, and hope.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. The Proposal -->
+<div class="card">
+  <img src="c 118.jpg" alt="The Proposal Poster" />
+  <h1>The Proposal</h1>
+  <p>by Anne Fletcher</p>
+  <details>
+    <summary>About</summary>
+    <p>A tough boss fakes an engagement with her assistant to avoid deportation, sparking real feelings.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. Crazy Rich Asians -->
+<div class="card">
+  <img src="c 119.jpg" alt="Crazy Rich Asians Poster" />
+  <h1>Crazy Rich Asians</h1>
+  <p>by Jon M. Chu</p>
+  <details>
+    <summary>About</summary>
+    <p>A woman discovers her boyfriend is from one of Asia’s wealthiest families, facing culture and class clashes.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. Bridget Jones's Diary -->
+<div class="card">
+  <img src="c 120.jpg" alt="Bridget Jones Poster" />
+  <h1>Bridget Jones's Diary</h1>
+  <p>by Sharon Maguire</p>
+  <details>
+    <summary>About</summary>
+    <p>A quirky British woman chronicles her romantic misadventures and self-improvement goals.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. The Holiday -->
+<div class="card">
+  <img src="c 121.jpg" alt="The Holiday Poster" />
+  <h1>The Holiday</h1>
+  <p>by Nancy Meyers</p>
+  <details>
+    <summary>About</summary>
+    <p>Two women swap homes across the globe and unexpectedly find love during the Christmas season.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. Sleepless in Seattle -->
+<div class="card">
+  <img src="c 122.jpg" alt="Sleepless in Seattle Poster" />
+  <h1>Sleepless in Seattle</h1>
+  <p>by Nora Ephron</p>
+  <details>
+    <summary>About</summary>
+    <p>A widower’s son calls a radio show to find his dad a new wife, leading to a cross-country romance.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. My Big Fat Greek Wedding -->
+<div class="card">
+  <img src="c 123.jpg" alt="Greek Wedding Poster" />
+  <h1>My Big Fat Greek Wedding</h1>
+  <p>by Joel Zwick</p>
+  <details>
+    <summary>About</summary>
+    <p>A Greek woman falls for a non-Greek man, causing cultural clashes and comedic family chaos.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. 13 Going on 30 -->
+<div class="card">
+  <img src="c 124.jpg" alt="13 Going on 30 Poster" />
+  <h1>13 Going on 30</h1>
+  <p>by Gary Winick</p>
+  <details>
+    <summary>About</summary>
+    <p>A teen magically wakes up as her 30-year-old self and must navigate adulthood and lost love.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. The Princess Bride -->
+<div class="card">
+  <img src="c 125.jpg" alt="Princess Bride Poster" />
+  <h1>The Princess Bride</h1>
+  <p>by Rob Reiner</p>
+  <details>
+    <summary>About</summary>
+    <p>A fairy tale adventure filled with sword fights, true love, and unforgettable one-liners.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Clueless -->
+<div class="card">
+  <img src="c 126.jpg" alt="Clueless Poster" />
+  <h1>Clueless</h1>
+  <p>by Amy Heckerling</p>
+  <details>
+    <summary>About</summary>
+    <p>A stylish teen plays matchmaker at her Beverly Hills high school, only to find love herself.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. How to Lose a Guy in 10 Days -->
+<div class="card">
+  <img src="c 127.jpg" alt="Lose a Guy Poster" />
+  <h1>How to Lose a Guy in 10 Days</h1>
+  <p>by Donald Petrie</p>
+  <details>
+    <summary>About</summary>
+    <p>A writer and an ad exec date under false pretenses, each trying to outwit the other—until love interferes.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. The Big Sick -->
+<div class="card">
+  <img src="c 128.jpg" alt="The Big Sick Poster" />
+  <h1>The Big Sick</h1>
+  <p>by Michael Showalter</p>
+  <details>
+    <summary>About</summary>
+    <p>A Pakistani comedian navigates cultural expectations and unexpected love during a medical crisis.</p>
+  </details>
+  <button type="button">Buy</button>
+    <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

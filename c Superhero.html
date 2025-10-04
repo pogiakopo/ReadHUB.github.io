@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Superhero</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Superhero</h1></center>
+<div class="card-container">
+
+<!-- 1. The Dark Knight -->
+<div class="card">
+  <img src="c 177.jpg" alt="The Dark Knight Poster" />
+  <h1>The Dark Knight</h1>
+  <p>by Christopher Nolan</p>
+  <details>
+    <summary>About</summary>
+    <p>Batman faces his greatest challenge as the Joker wreaks havoc on Gotham’s moral fabric.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. Avengers: Endgame -->
+<div class="card">
+  <img src="c 178.jpg" alt="Avengers Endgame Poster" />
+  <h1>Avengers: Endgame</h1>
+  <p>by Anthony & Joe Russo</p>
+  <details>
+    <summary>About</summary>
+    <p>The Avengers unite for one final battle to undo Thanos’s destruction and restore the universe.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. Spider-Man: Into the Spider-Verse -->
+<div class="card">
+  <img src="c 179.jpg" alt="Spider-Verse Poster" />
+  <h1>Spider-Man: Into the Spider-Verse</h1>
+  <p>by Bob Persichetti, Peter Ramsey, Rodney Rothman</p>
+  <details>
+    <summary>About</summary>
+    <p>Teenager Miles Morales discovers a multiverse of Spider-heroes and learns what it means to be one.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. Iron Man -->
+<div class="card">
+  <img src="c 180.jpg" alt="Iron Man Poster" />
+  <h1>Iron Man</h1>
+  <p>by Jon Favreau</p>
+  <details>
+    <summary>About</summary>
+    <p>Genius billionaire Tony Stark builds a suit of armor and becomes the armored Avenger.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. Black Panther -->
+<div class="card">
+  <img src="c 181.jpg" alt="Black Panther Poster" />
+  <h1>Black Panther</h1>
+  <p>by Ryan Coogler</p>
+  <details>
+    <summary>About</summary>
+    <p>Prince T’Challa returns to Wakanda to claim the throne and defend his nation from internal threats.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. Logan -->
+<div class="card">
+  <img src="c 182.jpg" alt="Logan Poster" />
+  <h1>Logan</h1>
+  <p>by James Mangold</p>
+  <details>
+    <summary>About</summary>
+    <p>An aging Wolverine protects a young mutant in a gritty, emotional farewell to the X-Men legacy.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. Wonder Woman -->
+<div class="card">
+  <img src="c 183.jpg" alt="Wonder Woman Poster" />
+  <h1>Wonder Woman</h1>
+  <p>by Patty Jenkins</p>
+  <details>
+    <summary>About</summary>
+    <p>Diana, Amazon warrior princess, ventures into WWI to stop a god of war and discover her destiny.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. Deadpool -->
+<div class="card">
+  <img src="c 184.jpg" alt="Deadpool Poster" />
+  <h1>Deadpool</h1>
+  <p>by Tim Miller</p>
+  <details>
+    <summary>About</summary>
+    <p>A wisecracking mercenary with healing powers seeks revenge and love in this R-rated romp.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. Captain America: The Winter Soldier -->
+<div class="card">
+  <img src="c 185.jpg" alt="Winter Soldier Poster" />
+  <h1>Captain America: The Winter Soldier</h1>
+  <p>by Anthony & Joe Russo</p>
+  <details>
+    <summary>About</summary>
+    <p>Steve Rogers uncovers a conspiracy within S.H.I.E.L.D. while facing a deadly assassin from his past.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. The Incredibles -->
+<div class="card">
+  <img src="c 186.jpg" alt="The Incredibles Poster" />
+  <h1>The Incredibles</h1>
+  <p>by Brad Bird</p>
+  <details>
+    <summary>About</summary>
+    <p>A family of undercover superheroes must save the world while juggling domestic life and danger.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. Guardians of the Galaxy -->
+<div class="card">
+  <img src="c 187.jpg" alt="Guardians Poster" />
+  <h1>Guardians of the Galaxy</h1>
+  <p>by James Gunn</p>
+  <details>
+    <summary>About</summary>
+    <p>A ragtag group of cosmic misfits band together to protect a powerful artifact from evil forces.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. X-Men: Days of Future Past -->
+<div class="card">
+  <img src="c 188.jpg" alt="Days of Future Past Poster" />
+  <h1>X-Men: Days of Future Past</h1>
+  <p>by Bryan Singer</p>
+  <details>
+    <summary>About</summary>
+    <p>Wolverine travels back in time to prevent a dystopian future and unite the X-Men across generations.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. Shazam! -->
+<div class="card">
+  <img src="c 189.jpg" alt="Shazam Poster" />
+  <h1>Shazam!</h1>
+  <p>by David F. Sandberg</p>
+  <details>
+    <summary>About</summary>
+    <p>A teenage boy gains the ability to transform into an adult superhero with a single word—Shazam!</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Doctor Strange -->
+<div class="card">
+  <img src="c 190.jpg" alt="Doctor Strange Poster" />
+  <h1>Doctor Strange</h1>
+  <p>by Scott Derrickson</p>
+  <details>
+    <summary>About</summary>
+    <p>A brilliant surgeon discovers the mystic arts and defends reality from magical threats.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. The Batman -->
+<div class="card">
+  <img src="c 191.jpg" alt="The Batman Poster" />
+  <h1>The Batman</h1>
+  <p>by Matt Reeves</p>
+  <details>
+    <summary>About</summary>
+    <p>In his second year of crime-fighting, Batman uncovers corruption and faces the enigmatic Riddler.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. Spider-Man: No Way Home -->
+<div class="card">
+  <img src="c 192.jpg" alt="No Way Home Poster" />
+  <h1>Spider-Man: No Way Home</h1>
+  <p>by Jon Watts</p>
+  <details>
+    <summary>About</summary>
+    <p>Peter Parker’s identity is exposed, leading to a multiverse collision with past Spider-Men and villains.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

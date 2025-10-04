@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>b True Crime</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>True Crime</h1></center>
+<div class="card-container">
+  <div class="card">
+    <img src="b 46.jpg" alt="In Cold Blood cover" />
+    <h1>In Cold Blood</h1>
+    <p>by Truman Capote</p>
+    <details>
+      <summary>About</summary>
+      <p>A haunting account of the brutal murder of a Kansas family and the killers who committed the crime. A landmark in literary journalism.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 47.jpg" alt="Helter Skelter cover" />
+    <h1>Helter Skelter</h1>
+    <p>by Vincent Bugliosi</p>
+    <details>
+      <summary>About</summary>
+      <p>The prosecutor’s inside story of the Manson Family murders and the trial that shocked the world.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 48.jpg" alt="The Executioner's Song cover" />
+    <h1>The Executioner's Song</h1>
+    <p>by Norman Mailer</p>
+    <details>
+      <summary>About</summary>
+      <p>A Pulitzer-winning narrative of convicted killer Gary Gilmore and his demand to be executed. Deeply psychological and raw.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 49.jpg" alt="The Stranger Beside Me cover" />
+    <h1>The Stranger Beside Me</h1>
+    <p>by Ann Rule</p>
+    <details>
+      <summary>About</summary>
+      <p>Ann Rule’s chilling realization that her friend and coworker was serial killer Ted Bundy. Personal and terrifying.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 50.jpg" alt="The Poisoner's Handbook cover" />
+    <h1>The Poisoner's Handbook</h1>
+    <p>by Deborah Blum</p>
+    <details>
+      <summary>About</summary>
+      <p>The birth of forensic science in Jazz Age New York, told through gripping cases of murder and toxicology.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 51.jpg" alt="Black Klansman cover" />
+    <h1>Black Klansman</h1>
+    <p>by Ron Stallworth</p>
+    <details>
+      <summary>About</summary>
+      <p>The true story of a Black detective who infiltrated the Ku Klux Klan in the 1970s. Bold, surreal, and powerful.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 52.jpg" alt="Mindhunter cover" />
+    <h1>Mindhunter</h1>
+    <p>by John E. Douglas & Mark Olshaker</p>
+    <details>
+      <summary>About</summary>
+      <p>The FBI’s pioneering criminal profiler recounts his work tracking America’s most notorious serial killers.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 53.jpg" alt="I'll Be Gone in the Dark cover" />
+    <h1>I'll Be Gone in the Dark</h1>
+    <p>by Michelle McNamara</p>
+    <details>
+      <summary>About</summary>
+      <p>A gripping investigation into the Golden State Killer, whose identity was revealed after McNamara’s death.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 54.jpg" alt="Columbine cover" />
+    <h1>Columbine</h1>
+    <p>by Dave Cullen</p>
+    <details>
+      <summary>About</summary>
+      <p>A deeply researched and compassionate account of the Columbine school shooting and its lasting impact.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 55.jpg" alt="American Predator cover" />
+    <h1>American Predator</h1>
+    <p>by Maureen Callahan</p>
+    <details>
+      <summary>About</summary>
+      <p>The terrifying story of Israel Keyes, one of the most meticulous and elusive serial killers in U.S. history.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+</div>
+<center><a href=""><-- EXPAND --></center></a>
+</body>
+</html>

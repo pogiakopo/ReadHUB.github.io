@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Western</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Western</h1></center>
+<div class="card-container">
+
+<!-- 1. The Good, the Bad and the Ugly -->
+<div class="card">
+  <img src="c 161.jpg" alt="The Good, the Bad and the Ugly Poster" />
+  <h1>The Good, the Bad and the Ugly</h1>
+  <p>by Sergio Leone</p>
+  <details>
+    <summary>About</summary>
+    <p>Three gunslingers race to find buried treasure during the chaos of the American Civil War.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. High Noon -->
+<div class="card">
+  <img src="c 162.jpg" alt="High Noon Poster" />
+  <h1>High Noon</h1>
+  <p>by Fred Zinnemann</p>
+  <details>
+    <summary>About</summary>
+    <p>A lone marshal faces a deadly gang as the town turns its back on him—real-time tension at its finest.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. Unforgiven -->
+<div class="card">
+  <img src="c 163.jpg" alt="Unforgiven Poster" />
+  <h1>Unforgiven</h1>
+  <p>by Clint Eastwood</p>
+  <details>
+    <summary>About</summary>
+    <p>A retired outlaw takes one last job, confronting violence, morality, and his own haunted past.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. The Magnificent Seven -->
+<div class="card">
+  <img src="c 164.jpg" alt="Magnificent Seven Poster" />
+  <h1>The Magnificent Seven</h1>
+  <p>by John Sturges</p>
+  <details>
+    <summary>About</summary>
+    <p>Seven gunmen defend a Mexican village from bandits in this heroic tale of sacrifice and justice.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. Django -->
+<div class="card">
+  <img src="c 165.jpg" alt="Django Poster" />
+  <h1>Django</h1>
+  <p>by Sergio Corbucci</p>
+  <details>
+    <summary>About</summary>
+    <p>A mysterious drifter drags a coffin through the mud, unleashing vengeance in a gritty spaghetti western.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. The Man Who Shot Liberty Valance -->
+<div class="card">
+  <img src="c 166.jpg" alt="Liberty Valance Poster" />
+  <h1>The Man Who Shot Liberty Valance</h1>
+  <p>by John Ford</p>
+  <details>
+    <summary>About</summary>
+    <p>A senator returns to honor a fallen hero, revealing the truth behind a legendary gunfight.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. Tombstone -->
+<div class="card">
+  <img src="c 167.jpg" alt="Tombstone Poster" />
+  <h1>Tombstone</h1>
+  <p>by George P. Cosmatos</p>
+  <details>
+    <summary>About</summary>
+    <p>Wyatt Earp and Doc Holliday face off against outlaws in one of the most quotable Westerns ever made.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. Butch Cassidy and the Sundance Kid -->
+<div class="card">
+  <img src="c 168.jpg" alt="Butch Cassidy Poster" />
+  <h1>Butch Cassidy and the Sundance Kid</h1>
+  <p>by George Roy Hill</p>
+  <details>
+    <summary>About</summary>
+    <p>Two charming outlaws flee to Bolivia after a string of train robberies—buddy comedy meets Western grit.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. True Grit -->
+<div class="card">
+  <img src="c 169.jpg" alt="True Grit Poster" />
+  <h1>True Grit</h1>
+  <p>by Joel & Ethan Coen</p>
+  <details>
+    <summary>About</summary>
+    <p>A determined young girl hires a grizzled U.S. Marshal to avenge her father’s death.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. Shane -->
+<div class="card">
+  <img src="c 170.jpg" alt="Shane Poster" />
+  <h1>Shane</h1>
+  <p>by George Stevens</p>
+  <details>
+    <summary>About</summary>
+    <p>A mysterious gunslinger helps a farming family stand up to a ruthless cattle baron.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. Stagecoach -->
+<div class="card">
+  <img src="c 171.jpg" alt="Stagecoach Poster" />
+  <h1>Stagecoach</h1>
+  <p>by John Ford</p>
+  <details>
+    <summary>About</summary>
+    <p>Strangers on a perilous journey through Apache territory discover courage and character.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. The Searchers -->
+<div class="card">
+  <img src="c 172.jpg" alt="The Searchers Poster" />
+  <h1>The Searchers</h1>
+  <p>by John Ford</p>
+  <details>
+    <summary>About</summary>
+    <p>A Civil War veteran searches for his kidnapped niece, confronting racism and obsession along the way.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. Once Upon a Time in the West -->
+<div class="card">
+  <img src="c 173.jpg" alt="Once Upon a Time Poster" />
+  <h1>Once Upon a Time in the West</h1>
+  <p>by Sergio Leone</p>
+  <details>
+    <summary>About</summary>
+    <p>A mysterious harmonica-playing stranger and a widow face off against a ruthless assassin in a land-grabbing scheme.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Rio Bravo -->
+<div class="card">
+  <img src="c 174.jpg" alt="Rio Bravo Poster" />
+  <h1>Rio Bravo</h1>
+  <p>by Howard Hawks</p>
+  <details>
+    <summary>About</summary>
+    <p>A sheriff and his ragtag crew defend a jailhouse from a powerful rancher’s gang.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. The Outlaw Josey Wales -->
+<div class="card">
+  <img src="c 175.jpg" alt="Josey Wales Poster" />
+  <h1>The Outlaw Josey Wales</h1>
+  <p>by Clint Eastwood</p>
+  <details>
+    <summary>About</summary>
+    <p>A Confederate soldier turns outlaw and seeks vengeance while protecting a band of misfits.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. 3:10 to Yuma -->
+<div class="card">
+  <img src="c 176.jpg" alt="3:10 to Yuma Poster" />
+  <h1>3:10 to Yuma</h1>
+  <p>by James Mangold</p>
+  <details>
+    <summary>About</summary>
+    <p>A rancher escorts a dangerous outlaw to justice, facing moral dilemmas and deadly threats.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

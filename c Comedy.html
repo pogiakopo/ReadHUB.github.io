@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Comedy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Comedy</h1></center>
+<div class="card-container">
+
+<!-- 1. Airplane! -->
+<div class="card">
+  <img src="c 49.jpg" alt="Airplane! Poster" />
+  <h1>Airplane!</h1>
+  <p>by Jim Abrahams, David Zucker, Jerry Zucker</p>
+  <details>
+    <summary>About</summary>
+    <p>A spoof of disaster films, this absurd comedy follows a traumatized ex-pilot forced to land a plane after the crew falls ill.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. Monty Python and the Holy Grail -->
+<div class="card">
+  <img src="c 50.jpg" alt="Monty Python and the Holy Grail Poster" />
+  <h1>Monty Python and the Holy Grail</h1>
+  <p>by Terry Gilliam, Terry Jones</p>
+  <details>
+    <summary>About</summary>
+    <p>A surreal and hilarious retelling of King Arthur’s quest for the Holy Grail, filled with absurdity and British wit.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. The Big Lebowski -->
+<div class="card">
+  <img src="c 51.jpg" alt="The Big Lebowski Poster" />
+  <h1>The Big Lebowski</h1>
+  <p>by Joel and Ethan Coen</p>
+  <details>
+    <summary>About</summary>
+    <p>“The Dude” gets caught in a bizarre kidnapping plot after being mistaken for a millionaire with the same name.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. Groundhog Day -->
+<div class="card">
+  <img src="c 52.jpg" alt="Groundhog Day Poster" />
+  <h1>Groundhog Day</h1>
+  <p>by Harold Ramis</p>
+  <details>
+    <summary>About</summary>
+    <p>A cynical weatherman relives the same day over and over, learning life lessons through repetition and redemption.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. Dumb and Dumber -->
+<div class="card">
+  <img src="c 53.jpg" alt="Dumb and Dumber Poster" />
+  <h1>Dumb and Dumber</h1>
+  <p>by Peter Farrelly</p>
+  <details>
+    <summary>About</summary>
+    <p>Two dimwitted friends embark on a cross-country trip to return a briefcase, causing chaos at every turn.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. Superbad -->
+<div class="card">
+  <img src="c 54.jpg" alt="Superbad Poster" />
+  <h1>Superbad</h1>
+  <p>by Greg Mottola</p>
+  <details>
+    <summary>About</summary>
+    <p>Two high school friends try to score alcohol for a party, leading to a night of misadventures and awkward hilarity.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. Bridesmaids -->
+<div class="card">
+  <img src="c 55.jpg" alt="Bridesmaids Poster" />
+  <h1>Bridesmaids</h1>
+  <p>by Paul Feig</p>
+  <details>
+    <summary>About</summary>
+    <p>A woman’s life unravels as she competes with a perfect bridesmaid for her best friend’s affection before the wedding.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. Ferris Bueller's Day Off -->
+<div class="card">
+  <img src="c 56.jpg" alt="Ferris Bueller's Day Off Poster" />
+  <h1>Ferris Bueller's Day Off</h1>
+  <p>by John Hughes</p>
+  <details>
+    <summary>About</summary>
+    <p>A charming teen skips school for a day of adventure in Chicago, evading his principal and parents with flair.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. Tropic Thunder -->
+<div class="card">
+  <img src="c 57.jpg" alt="Tropic Thunder Poster" />
+  <h1>Tropic Thunder</h1>
+  <p>by Ben Stiller</p>
+  <details>
+    <summary>About</summary>
+    <p>Actors filming a war movie in the jungle are forced to become real soldiers when they stumble into actual danger.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. Anchorman: The Legend of Ron Burgundy -->
+<div class="card">
+  <img src="c 58.jpg" alt="Anchorman Poster" />
+  <h1>Anchorman: The Legend of Ron Burgundy</h1>
+  <p>by Adam McKay</p>
+  <details>
+    <summary>About</summary>
+    <p>A pompous news anchor battles a rising female journalist in a 1970s newsroom filled with absurd antics.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. The Hangover -->
+<div class="card">
+  <img src="c 59.jpg" alt="The Hangover Poster" />
+  <h1>The Hangover</h1>
+  <p>by Todd Phillips</p>
+  <details>
+    <summary>About</summary>
+    <p>Three friends wake up after a wild bachelor party in Vegas with no memory and a missing groom to find.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. Shaun of the Dead -->
+<div class="card">
+  <img src="c 60.jpg" alt="Shaun of the Dead Poster" />
+  <h1>Shaun of the Dead</h1>
+  <p>by Edgar Wright</p>
+  <details>
+    <summary>About</summary>
+    <p>A slacker tries to win back his ex and survive a zombie apocalypse with his best friend in tow.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. Office Space -->
+<div class="card">
+  <img src="c 61.jpg" alt="Office Space Poster" />
+  <h1>Office Space</h1>
+  <p>by Mike Judge</p>
+  <details>
+    <summary>About</summary>
+    <p>Fed up with corporate life, a software engineer rebels against his soul-crushing job in hilarious ways.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Mean Girls -->
+<div class="card">
+  <img src="c 62.jpg" alt="Mean Girls Poster" />
+  <h1>Mean Girls</h1>
+  <p>by Mark Waters</p>
+  <details>
+    <summary>About</summary>
+    <p>A new student navigates the treacherous world of high school cliques, led by the infamous “Plastics.”</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. My Cousin Vinny -->
+<div class="card">
+  <img src="c 63.jpg" alt="My Cousin Vinny Poster" />
+  <h1>My Cousin Vinny</h1>
+  <p>by Jonathan Lynn</p>
+  <details>
+    <summary>About</summary>
+    <p>A brash New York lawyer defends his cousin in a murder trial in Alabama, with hilarious courtroom antics.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. The Naked Gun: From the Files of Police Squad! -->
+<div class="card">
+  <img src="c 64.jpg" alt="The Naked Gun Poster" />
+  <h1>The Naked Gun: From the Files of Police Squad!</h1>
+  <p>by David Zucker</p>
+  <details>
+    <summary>About</summary>
+    <p>Detective Frank Drebin bumbles his way through a plot to assassinate Queen Elizabeth II, delivering slapstick and absurdity at every turn.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

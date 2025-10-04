@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Drama</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Drama</h1></center>
+<div class="card-container">
+
+<!-- 1. The Shawshank Redemption -->
+<div class="card">
+  <img src="c 33.jpg" alt="Shawshank Redemption Poster" />
+  <h1>The Shawshank Redemption</h1>
+  <p>by Frank Darabont</p>
+  <details>
+    <summary>About</summary>
+    <p>Wrongfully imprisoned, a man forms a life-changing friendship and plots a daring escape over decades.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. Forrest Gump -->
+<div class="card">
+  <img src="c 34.jpg" alt="Forrest Gump Poster" />
+  <h1>Forrest Gump</h1>
+  <p>by Robert Zemeckis</p>
+  <details>
+    <summary>About</summary>
+    <p>A simple man unwittingly influences major historical events while searching for love and meaning.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. The Godfather -->
+<div class="card">
+  <img src="c 35.jpg" alt="The Godfather Poster" />
+  <h1>The Godfather</h1>
+  <p>by Francis Ford Coppola</p>
+  <details>
+    <summary>About</summary>
+    <p>A powerful mafia family navigates loyalty, betrayal, and legacy in this cinematic masterpiece.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. Schindler's List -->
+<div class="card">
+  <img src="c 36.jpg" alt="Schindler's List Poster" />
+  <h1>Schindler's List</h1>
+  <p>by Steven Spielberg</p>
+  <details>
+    <summary>About</summary>
+    <p>A German businessman saves hundreds of Jews during the Holocaust in this haunting true story.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. Fight Club -->
+<div class="card">
+  <img src="c 37.jpg" alt="Fight Club Poster" />
+  <h1>Fight Club</h1>
+  <p>by David Fincher</p>
+  <details>
+    <summary>About</summary>
+    <p>An insomniac and a soap salesman start an underground fight club that spirals into chaos.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. A Beautiful Mind -->
+<div class="card">
+  <img src="c 38.jpg" alt="A Beautiful Mind Poster" />
+  <h1>A Beautiful Mind</h1>
+  <p>by Ron Howard</p>
+  <details>
+    <summary>About</summary>
+    <p>Based on the life of mathematician John Nash, this film explores genius, mental illness, and redemption.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. The Pursuit of Happyness -->
+<div class="card">
+  <img src="c 39.jpg" alt="Pursuit of Happyness Poster" />
+  <h1>The Pursuit of Happyness</h1>
+  <p>by Gabriele Muccino</p>
+  <details>
+    <summary>About</summary>
+    <p>A struggling salesman fights homelessness and hardship to build a better life for his son.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. Titanic -->
+<div class="card">
+  <img src="c 40.jpg" alt="Titanic Poster" />
+  <h1>Titanic</h1>
+  <p>by James Cameron</p>
+  <details>
+    <summary>About</summary>
+    <p>A sweeping romance unfolds aboard the doomed RMS Titanic, blending love and tragedy.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. Dead Poets Society -->
+<div class="card">
+  <img src="c 41.jpg" alt="Dead Poets Society Poster" />
+  <h1>Dead Poets Society</h1>
+  <p>by Peter Weir</p>
+  <details>
+    <summary>About</summary>
+    <p>An English teacher inspires students to seize the day and challenge conformity through poetry.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. The Green Mile -->
+<div class="card">
+  <img src="c 42.jpg" alt="The Green Mile Poster" />
+  <h1>The Green Mile</h1>
+  <p>by Frank Darabont</p>
+  <details>
+    <summary>About</summary>
+    <p>A death row guard discovers a gentle giant with miraculous powers in this emotional prison drama.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. Requiem for a Dream -->
+<div class="card">
+  <img src="c 43.jpg" alt="Requiem for a Dream Poster" />
+  <h1>Requiem for a Dream</h1>
+  <p>by Darren Aronofsky</p>
+  <details>
+    <summary>About</summary>
+    <p>A harrowing look at addiction and its devastating impact on four interconnected lives.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. The Social Network -->
+<div class="card">
+  <img src="c 44.jpg" alt="The Social Network Poster" />
+  <h1>The Social Network</h1>
+  <p>by David Fincher</p>
+  <details>
+    <summary>About</summary>
+    <p>The rise of Facebook and the legal battles that followed are explored in this sharp, character-driven drama.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. Moonlight -->
+<div class="card">
+  <img src="c 45.jpg" alt="Moonlight Poster" />
+  <h1>Moonlight</h1>
+  <p>by Barry Jenkins</p>
+  <details>
+    <summary>About</summary>
+    <p>A young Black man grapples with identity, love, and trauma across three stages of his life.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Manchester by the Sea -->
+<div class="card">
+  <img src="c 46.jpg" alt="Manchester by the Sea Poster" />
+  <h1>Manchester by the Sea</h1>
+  <p>by Kenneth Lonergan</p>
+  <details>
+    <summary>About</summary>
+    <p>A grieving man returns to his hometown and confronts painful memories while caring for his nephew.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. There Will Be Blood -->
+<div class="card">
+  <img src="c 47.jpg" alt="There Will Be Blood Poster" />
+  <h1>There Will Be Blood</h1>
+  <p>by Paul Thomas Anderson</p>
+  <details>
+    <summary>About</summary>
+    <p>An ambitious oilman’s ruthless pursuit of wealth leads to conflict, corruption, and isolation.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. Whiplash -->
+<div class="card">
+  <img src="c 48.jpg" alt="Whiplash Poster" />
+  <h1>Whiplash</h1>
+  <p>by Damien Chazelle</p>
+  <details>
+    <summary>About</summary>
+    <p>A young drummer faces psychological torment from his demanding music instructor in pursuit of greatness.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

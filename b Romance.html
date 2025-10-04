@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>b Romance</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Romance</h1></center>
+  <div class="card-container">
+    <div class="card">
+  <img src="b 16.jpg" alt="Cover of Pride and Prejudice" />
+  <h1>Pride and Prejudice</h1>
+  <p>by Jane Austen</p>
+  <details>
+    <summary>about</summary>
+    <p>A spirited young woman clashes with a proud gentleman in a witty, slow-burning romance that defies social expectations.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 17.jpg" alt="Cover of Outlander" />
+  <h1>Outlander</h1>
+  <p>by Diana Gabaldon</p>
+  <details>
+    <summary>about</summary>
+    <p>A WWII nurse is swept back in time to 18th-century Scotland, where she finds herself torn between two lives and two loves.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 18.jpg" alt="Cover of Twilight" />
+  <h1>Twilight</h1>
+  <p>by Stephenie Meyer</p>
+  <details>
+    <summary>about</summary>
+    <p>A teenage girl falls for a mysterious vampire, sparking a forbidden romance that threatens both their worlds.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 19.jpg" alt="Cover of Gone with the Wind" />
+  <h1>Gone with the Wind</h1>
+  <p>by Margaret Mitchell</p>
+  <details>
+    <summary>about</summary>
+    <p>Set during the American Civil War, a headstrong Southern belle navigates love, loss, and survival in a changing world.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 20.jpg" alt="Cover of The Notebook" />
+  <h1>The Notebook</h1>
+  <p>by Nicholas Sparks</p>
+  <details>
+    <summary>about</summary>
+    <p>An elderly man reads a love story from a notebook to a woman with Alzheimer’s, hoping to rekindle their shared past.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 21.jpg" alt="Cover of Red, White & Royal Blue" />
+  <h1>Red, White & Royal Blue</h1>
+  <p>by Casey McQuiston</p>
+  <details>
+    <summary>about</summary>
+    <p>The First Son of the U.S. and a British prince fall in love, challenging politics, tradition, and their own identities.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 22.jpg" alt="Cover of The Fault in Our Stars" />
+  <h1>The Fault in Our Stars</h1>
+  <p>by John Green</p>
+  <details>
+    <summary>about</summary>
+    <p>Two teens with cancer fall in love and embark on a journey to find meaning, beauty, and truth in the face of mortality.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 23.jpg" alt="Cover of Get a Life, Chloe Brown" />
+  <h1>Get a Life, Chloe Brown</h1>
+  <p>by Talia Hibbert</p>
+  <details>
+    <summary>about</summary>
+    <p>A chronically ill woman makes a daring list to “get a life” and finds unexpected love with her grumpy but charming neighbor.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 24.jpg" alt="Cover of Heartbeat" />
+  <h1>Heartbeat</h1>
+  <p>by Danielle Steel</p>
+  <details>
+    <summary>about</summary>
+    <p>A TV producer and a woman facing heartbreak find solace and love in each other as they rebuild their lives.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 25.jpg" alt="Cover of Jane Eyre" />
+  <h1>Jane Eyre</h1>
+  <p>by Charlotte Brontë</p>
+  <details>
+    <summary>about</summary>
+    <p>A fiercely independent orphan becomes a governess and falls for her mysterious employer, only to uncover a haunting secret.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+  </div>
+<center><a href=""><-- EXPAND --></center></a>
+</body>
+</html>

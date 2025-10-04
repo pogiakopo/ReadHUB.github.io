@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Header</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color: #f0f0f0;
+        }
+    
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5em 1.5em;
+            background: #202020;
+            margin: 20px auto;
+            width: 90%;
+            border-radius: 50px;
+            position: relative;
+            opacity: 0.5;
+            transition: all 0.3s ease;
+            animation: forwards glow 5s ease infinite, fadeIn 1s ease;
+            box-shadow: 
+                0 0 40px red,
+                0 0 80px blueviolet,
+                0 0 160px blue;
+        }
+        header:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+        @keyframes glow {
+            14.3% {
+                box-shadow: 
+                    0 0 20px orange,
+                    0 0 40px red,
+                    0 0 80px blueviolet;
+            }
+            28.6% {
+                box-shadow:
+                    0 0 40px yellow,
+                    0 0 80px orange,
+                    0 0 160px red;
+            }
+            42.9% {
+                box-shadow:
+                    0 0 20px lime,
+                    0 0 40px yellow,
+                    0 0 80px orange;
+            }
+            57.2% {
+                box-shadow:
+                    0 0 40px cyan,
+                    0 0 80px lime,
+                    0 0 160px yellow;
+            }
+            71.5% {
+                box-shadow:
+                    0 0 20px blue,
+                    0 0 40px cyan,
+                    0 0 80px lime;
+            }
+            85.8% {
+                box-shadow:
+                    0 0 40px blueviolet,
+                    0 0 80px blue,
+                    0 0 160px cyan;
+            }
+            100% {
+                box-shadow:
+                    0 0 40px red,
+                    0 0 20px blueviolet,
+                    0 0 160px blue;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.85) translateY(-50px); }
+            to { opacity: 0.5; transform: scale(1) translateX(0); }
+        }
+    
+        details {
+            position: relative;
+        }
+    
+        nav {
+            display: flex;
+            flex-direction: column;
+            background: #333;
+            position: absolute;
+            top: 2em;
+            left: 0;
+            min-width: 120px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #0004;
+            z-index: 10;
+            white-space: nowrap;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+    
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            transition: all 0.3s ease;
+            margin: 15px 10px;
+            background-color: #555;
+            border-radius: 10px;
+            padding: 15px 20px;
+        }
+    
+        nav a:hover {
+            background: #f7971d;
+            transform: scale(1.05);
+            box-shadow: 0 0 30px #f7971d;
+        }
+    
+        img[alt="logo"] {
+            height: 46px;
+            vertical-align: middle;
+            border-radius: 10px;
+        }
+    
+        label {
+            display: flex;
+            align-items: center;
+            background: #333;
+            border-radius: 50px;
+            padding: 5px 20px;
+            position: absolute;
+            right: 150px;
+        }
+    
+        input[type="text"] {
+            background: #222;
+            color: #f0f0f0;
+            border: none;
+            margin-left: 0.5em;
+            padding: 0.3em 0.5em;
+            border-radius: 10px;
+            width: 300px;
+            height: 1.5em;
+        }
+    
+        input[type="text"]:focus {
+            outline: 2px solid #555;
+        }
+    
+        /* Remove default arrow and prevent layout shift */
+        summary {
+            list-style: none;
+            display: block;
+            cursor: pointer;
+            font-size: 1.5em;
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        summary::-webkit-details-marker {
+            display: none;
+        }
+    
+        /* Make the second menu's dropdown appear to the left */
+        .menu-left nav {
+            left: auto;
+            right: 0;
+        }
+    
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+    
+            nav {
+                position: static;
+                box-shadow: none;
+            }
+    
+            .menu-left nav {
+                position: static;
+                box-shadow: none;
+                right: auto;
+            }
+        }
+    
+        .div {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="div">
+            <div>
+                <details>
+                    <summary aria-label="Main menu">☰</summary>
+                    <nav>
+                        <a href="A Main.html" target="main">Home</a>
+                        <a href="B Books.html" target="main">Books</a>
+                        <a href="C Movies.html" target="main">Movies</a>
+                    </nav>
+                </details>
+            </div>
+            <div>
+                <a href="A Read Hub.html" target="_top" aria-label="Home">
+                    <img src="logo.png" alt="logo">
+                </a>
+            </div>
+        </div>
+
+        <label for="search">
+            🔍︎
+            <input id="search" type="text" placeholder="⌕ Search..." aria-label="Search">
+        </label>
+
+        <details class="menu-left">
+            <summary aria-label="More options">⋮</summary>
+            <nav>
+                <a href="#" target="main">⚙️ Settings</a>
+                <a href="#" target="main">📞 Contacts</a>
+                <a href="#" target="main">👥 About Us</a>
+            </nav>
+        </details>
+    </header>
+</body>
+</html>

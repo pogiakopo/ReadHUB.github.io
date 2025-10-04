@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Nav</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 1em;
+            background-color: #1b1b1b;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 0.5em;
+            scrollbar-width: thin;
+            scrollbar-color: #555 #1b1b1b;
+            align-items: center;
+            border: double 4px rgba(255, 255, 255, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1.3em 1.5em;
+            background-color: #333;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            transform: scale(1.05);
+            background-color: #f7971d;
+            color: black;
+            box-shadow: 
+                    0 0 50px #ff971d, 
+                    0 0 100px #ff971d, 
+                    0 0 150px #ff971d;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="c Action.html" target="mainMovies">Action</a> -
+        <a href="c Adventure.html" target="mainMovies">Adventure</a> -
+        <a href="c Drama.html" target="mainMovies">Drama</a> -
+        <a href="c Comedy.html" target="mainMovies">Comedy</a> -
+        <a href="c Thriller-Suspense.html" target="mainMovies">Thriller/Suspense</a> -
+        <a href="c Horror.html" target="mainMovies">Horror</a> -
+        <a href="c Science Fiction.html" target="mainMovies">Science Fiction</a> -
+        <a href="c Romantic Comedy.html" target="mainMovies">Romantic Comedy</a> -
+        <a href="c Musical.html" target="mainMovies">Musical</a> -
+        <a href="c Documentary.html" target="mainMovies">Documentary</a> -
+        <a href="c Western.html" target="mainMovies">Western</a> -
+        <a href="c Superhero.html" target="mainMovies">Superhero</a>
+    </nav>
+</body>
+</html>

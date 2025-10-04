@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Action</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Action</h1></center>
+  <div class="card-container">
+
+    <div class="card">
+      <img src="c 1.jpg" alt="Die Hard Poster" />
+      <h1>Die Hard</h1>
+      <p>by John McTiernan</p>
+      <details>
+        <summary>About</summary>
+        <p>John McClane, a New York cop, battles terrorists in a Los Angeles skyscraper on Christmas Eve. A genre-defining action thriller.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 2.jpg" alt="Terminator 2 Poster" />
+      <h1>Terminator 2: Judgment Day</h1>
+      <p>by James Cameron</p>
+      <details>
+        <summary>About</summary>
+        <p>A cyborg returns to protect a boy from a more advanced killer robot. Stunning effects and emotional depth make this a classic.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 3.jpg" alt="The Dark Knight Poster" />
+      <h1>The Dark Knight</h1>
+      <p>by Christopher Nolan</p>
+      <details>
+        <summary>About</summary>
+        <p>Batman faces off against the Joker in this gritty, psychological thriller. Heath Ledger’s performance is unforgettable.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 4.jpg" alt="Mad Max: Fury Road Poster" />
+      <h1>Mad Max: Fury Road</h1>
+      <p>by George Miller</p>
+      <details>
+        <summary>About</summary>
+        <p>In a post-apocalyptic wasteland, Max and Furiosa flee a tyrant. A visually stunning, high-octane chase film.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 5.jpg" alt="Gladiator Poster" />
+      <h1>Gladiator</h1>
+      <p>by Ridley Scott</p>
+      <details>
+        <summary>About</summary>
+        <p>A betrayed Roman general rises as a gladiator to seek vengeance. Epic storytelling and powerful performances.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 6.jpg" alt="John Wick 4 Poster" />
+      <h1>John Wick: Chapter 4</h1>
+      <p>by Chad Stahelski</p>
+      <details>
+        <summary>About</summary>
+        <p>Keanu Reeves returns as the unstoppable assassin, taking the fight global in this stylish, high-octane installment.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 7.jpg" alt="The Matrix Poster" />
+      <h1>The Matrix</h1>
+      <p>by The Wachowskis</p>
+      <details>
+        <summary>About</summary>
+        <p>A hacker discovers reality is a simulation and joins a rebellion. A mind-bending blend of philosophy and kung fu.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 8.jpg" alt="The Raid Poster" />
+      <h1>The Raid</h1>
+      <p>by Gareth Evans</p>
+      <details>
+        <summary>About</summary>
+        <p>An elite SWAT team fights its way through a crime-infested high-rise. Relentless martial arts action and choreography brilliance.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 9.jpg" alt="Inception Poster" />
+      <h1>Inception</h1>
+      <p>by Christopher Nolan</p>
+      <details>
+        <summary>About</summary>
+        <p>A thief enters dreams to steal secrets, but faces layers of reality. A cerebral action film with stunning visuals and depth.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+    <div class="card">
+      <img src="c 10.jpg" alt="Skyfall Poster" />
+      <h1>Skyfall</h1>
+      <p>by Sam Mendes</p>
+      <details>
+        <summary>About</summary>
+        <p>James Bond faces betrayal and a cyber-terrorist threat. A stylish, emotional entry in the 007 saga with high-stakes action.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+    <div class="card">
+      <img src="c 11.jpg" alt="Speed Poster" />
+      <h1>Speed</h1>
+      <p>by Jan de Bont</p>
+      <details>
+        <summary>About</summary>
+        <p>A cop must keep a city bus above 50 mph to prevent a bomb from exploding. Non-stop tension and action.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+    <div class="card">
+      <img src="c 12.jpg" alt="Edge of Tomorrow Poster" />
+      <h1>Edge of Tomorrow</h1>
+      <p>by Doug Liman</p>
+      <details>
+        <summary>About</summary>
+        <p>A soldier relives the same day in a war against aliens, learning to fight and survive. Smart, thrilling, and fun.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+    <div class="card">
+      <img src="c 13.jpg" alt="Casino Royale Poster" />
+      <h1>Casino Royale</h1>
+      <p>by Martin Campbell</p>
+      <details>
+        <summary>About</summary>
+        <p>James Bond’s first mission as 007. Intense action, high-stakes poker, and gritty realism.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+    <div class="card">
+      <img src="c 14.jpg" alt="Mission: Impossible - Fallout Poster" />
+      <h1>Mission: Impossible - Fallout</h1>
+      <p>by Christopher McQuarrie</p>
+      <details>
+        <summary>About</summary>
+        <p>Ethan Hunt races against time after a mission goes wrong. Jaw-dropping stunts and relentless pacing.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+    <div class="card">
+      <img src="c 15.jpg" alt="Lethal Weapon Poster" />
+      <h1>Lethal Weapon</h1>
+      <p>by Richard Donner</p>
+      <details>
+        <summary>About</summary>
+        <p>Two mismatched cops take on criminals in Los Angeles. Classic buddy-cop action and humor.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+    <div class="card">
+      <img src="c 16.jpg" alt="Taken Poster" />
+      <h1>Taken</h1>
+      <p>by Pierre Morel</p>
+      <details>
+        <summary>About</summary>
+        <p>A retired agent uses his skills to rescue his kidnapped daughter. Fast-paced, gritty, and iconic.</p>
+      </details>
+      <button type="button">Buy</button>
+      <button type="button">Add to Cart 🛒</button>
+    </div>
+  
+  </div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

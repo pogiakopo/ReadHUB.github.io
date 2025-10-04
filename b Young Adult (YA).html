@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>b Young Adult (YA)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Young Adult (YA)</h1></center>
+<div class="card-container">
+  <div class="card">
+    <img src="b 56.jpg" alt="To Kill a Mockingbird cover" />
+    <h1>To Kill a Mockingbird</h1>
+    <p>by Harper Lee</p>
+    <details>
+      <summary>About</summary>
+      <p>A powerful coming-of-age story set in the racially charged American South, told through the eyes of young Scout Finch.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 57.jpg" alt="The Giver cover" />
+    <h1>The Giver</h1>
+    <p>by Lois Lowry</p>
+    <details>
+      <summary>About</summary>
+      <p>In a seemingly perfect society, Jonas is chosen to receive memories of the past—and discovers the cost of utopia.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 58.jpg" alt="The Hunger Games cover" />
+    <h1>The Hunger Games</h1>
+    <p>by Suzanne Collins</p>
+    <details>
+      <summary>About</summary>
+      <p>Katniss Everdeen volunteers for a deadly televised competition in a dystopian future. Survival becomes rebellion.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 22.jpg" alt="The Fault in Our Stars cover" />
+    <h1>The Fault in Our Stars</h1>
+    <p>by John Green</p>
+    <details>
+      <summary>About</summary>
+      <p>Two teens with cancer fall in love and explore life, death, and meaning in this deeply emotional story.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 60.jpg" alt="Divergent cover" />
+    <h1>Divergent</h1>
+    <p>by Veronica Roth</p>
+    <details>
+      <summary>About</summary>
+      <p>In a society divided by traits, Tris discovers she doesn’t fit into any one category—and that makes her dangerous.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 61.jpg" alt="The Perks of Being a Wallflower cover" />
+    <h1>The Perks of Being a Wallflower</h1>
+    <p>by Stephen Chbosky</p>
+    <details>
+      <summary>About</summary>
+      <p>Shy and introspective Charlie navigates high school, friendship, and trauma in this beloved coming-of-age novel.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 62.jpg" alt="Stargirl cover" />
+    <h1>Stargirl</h1>
+    <p>by Jerry Spinelli</p>
+    <details>
+      <summary>About</summary>
+      <p>When Stargirl arrives at Mica High, her eccentric charm challenges conformity and changes lives—including Leo’s.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 63.jpg" alt="Bridge to Terabithia cover" />
+    <h1>Bridge to Terabithia</h1>
+    <p>by Katherine Paterson</p>
+    <details>
+      <summary>About</summary>
+      <p>Jess and Leslie create a magical world in the woods—until tragedy forces Jess to confront loss and grow stronger.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 64.jpg" alt="The Outsiders cover" />
+    <h1>The Outsiders</h1>
+    <p>by S.E. Hinton</p>
+    <details>
+      <summary>About</summary>
+      <p>Ponyboy and his gang struggle with class conflict and identity in this gritty, heartfelt tale of teen rebellion.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 65.jpg" alt="The Hate U Give cover" />
+    <h1>The Hate U Give</h1>
+    <p>by Angie Thomas</p>
+    <details>
+      <summary>About</summary>
+      <p>After witnessing a police shooting, Starr Carter must speak out and find her voice in a divided community.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+</div>
+<center><a href=""><-- EXPAND --></center></a>
+</body>
+</html>

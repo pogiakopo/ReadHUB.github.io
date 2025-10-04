@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Musical</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Musical</h1></center>
+<div class="card-container">
+
+<!-- 1. Singin' in the Rain -->
+<div class="card">
+  <img src="c 129.jpg" alt="Singin' in the Rain Poster" />
+  <h1>Singin' in the Rain</h1>
+  <p>by Stanley Donen & Gene Kelly</p>
+  <details>
+    <summary>About</summary>
+    <p>A joyful celebration of Hollywood’s transition from silent films to talkies, filled with iconic dance numbers.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. The Sound of Music -->
+<div class="card">
+  <img src="c 130.jpg" alt="Sound of Music Poster" />
+  <h1>The Sound of Music</h1>
+  <p>by Robert Wise</p>
+  <details>
+    <summary>About</summary>
+    <p>A spirited nun becomes governess to a large Austrian family, bringing music and love into their lives.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. West Side Story -->
+<div class="card">
+  <img src="c 131.jpg" alt="West Side Story Poster" />
+  <h1>West Side Story</h1>
+  <p>by Jerome Robbins & Robert Wise</p>
+  <details>
+    <summary>About</summary>
+    <p>A modern retelling of Romeo and Juliet set amid rival street gangs in New York City, with unforgettable songs and choreography.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. Grease -->
+<div class="card">
+  <img src="c 132.jpg" alt="Grease Poster" />
+  <h1>Grease</h1>
+  <p>by Randal Kleiser</p>
+  <details>
+    <summary>About</summary>
+    <p>High school teens navigate love and friendship in the 1950s, backed by catchy rock ‘n’ roll tunes.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. Chicago -->
+<div class="card">
+  <img src="c 133.jpg" alt="Chicago Poster" />
+  <h1>Chicago</h1>
+  <p>by Rob Marshall</p>
+  <details>
+    <summary>About</summary>
+    <p>Two murderesses vie for fame and freedom in 1920s Chicago, dazzling with jazz and razzle-dazzle.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. Moulin Rouge! -->
+<div class="card">
+  <img src="c 134.jpg" alt="Moulin Rouge Poster" />
+  <h1>Moulin Rouge!</h1>
+  <p>by Baz Luhrmann</p>
+  <details>
+    <summary>About</summary>
+    <p>A poet falls for a cabaret star in a whirlwind of passion, spectacle, and pop-infused musical numbers.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. La La Land -->
+<div class="card">
+  <img src="c 135.jpg" alt="La La Land Poster" />
+  <h1>La La Land</h1>
+  <p>by Damien Chazelle</p>
+  <details>
+    <summary>About</summary>
+    <p>An aspiring actress and a jazz musician chase dreams and romance in a bittersweet Hollywood tale.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. Mamma Mia! -->
+<div class="card">
+  <img src="c 136.jpg" alt="Mamma Mia Poster" />
+  <h1>Mamma Mia!</h1>
+  <p>by Phyllida Lloyd</p>
+  <details>
+    <summary>About</summary>
+    <p>A bride-to-be invites three men from her mother’s past to her wedding, set to ABBA’s greatest hits.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. Rocketman -->
+<div class="card">
+  <img src="c 137.jpg" alt="Rocketman Poster" />
+  <h1>Rocketman</h1>
+  <p>by Dexter Fletcher</p>
+  <details>
+    <summary>About</summary>
+    <p>A fantastical musical journey through the life and career of Elton John.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. Dreamgirls -->
+<div class="card">
+  <img src="c 138.jpg" alt="Dreamgirls Poster" />
+  <h1>Dreamgirls</h1>
+  <p>by Bill Condon</p>
+  <details>
+    <summary>About</summary>
+    <p>A trio of singers rise to fame in the 1960s, facing the highs and lows of the music industry.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. The Greatest Showman -->
+<div class="card">
+  <img src="c 139.jpg" alt="Greatest Showman Poster" />
+  <h1>The Greatest Showman</h1>
+  <p>by Michael Gracey</p>
+  <details>
+    <summary>About</summary>
+    <p>P.T. Barnum creates a dazzling spectacle of performers and dreams in this feel-good musical extravaganza.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. Les Misérables -->
+<div class="card">
+  <img src="c 140.jpg" alt="Les Misérables Poster" />
+  <h1>Les Misérables</h1>
+  <p>by Tom Hooper</p>
+  <details>
+    <summary>About</summary>
+    <p>Set in revolutionary France, this epic tale of redemption and sacrifice is told entirely through song.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. Into the Woods -->
+<div class="card">
+  <img src="c 141.jpg" alt="Into the Woods Poster" />
+  <h1>Into the Woods</h1>
+  <p>by Rob Marshall</p>
+  <details>
+    <summary>About</summary>
+    <p>Fairy tale characters collide in a musical journey that explores wishes, consequences, and magic.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Annie -->
+<div class="card">
+  <img src="c 142.jpg" alt="Annie Poster" />
+  <h1>Annie</h1>
+  <p>by John Huston</p>
+  <details>
+    <summary>About</summary>
+    <p>A plucky orphan charms her way into a billionaire’s heart, singing her way to a brighter tomorrow.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. Hairspray -->
+<div class="card">
+  <img src="c 143.jpg" alt="Hairspray Poster" />
+  <h1>Hairspray</h1>
+  <p>by Adam Shankman</p>
+  <details>
+    <summary>About</summary>
+    <p>A teen girl fights for racial integration on a 1960s dance show, with big hair and bigger heart.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. Hamilton -->
+<div class="card">
+  <img src="c 144.jpg" alt="Hamilton Poster" />
+  <h1>Hamilton</h1>
+  <p>by Thomas Kail</p>
+  <details>
+    <summary>About</summary>
+    <p>The life of Alexander Hamilton is reimagined through hip-hop, R&B, and revolutionary storytelling.</p>
+  </details>
+  <button type="button">Buy</button>
+    <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

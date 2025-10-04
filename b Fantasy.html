@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>b Fantasy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Fantasy</h1></center>
+  <div class="card-container">
+    <!-- Repeat this block for each book -->
+    <div class="card">
+      <img src="b 1.jpg" alt="Cover of The Hobbit" />
+      <h1>The Hobbit</h1>
+      <p>by. J.J.R Tolkien</p>
+      <details>
+        <summary>About</summary>
+        <p>
+          The Hobbit is a classic fantasy tale by J.R.R. Tolkien about a
+          reluctant hobbit named Bilbo Baggins who embarks on an epic quest to
+          help dwarves reclaim their treasure from the dragon Smaug.
+        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 2.jpg" alt="Cover of The Hobbit" />
+      <h1>A Game Of Thrones</h1>
+      <p>by. G.R.R Martin</p>
+      <details>
+        <summary>About</summary>
+        <p>
+          A Game of Thrones is a sweeping tale of noble families locked in a brutal power struggle for control of the Iron Throne in the Seven Kingdoms, set against a backdrop of ancient magic, looming winter, and political betrayal.
+        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 3.jpg" alt="Cover of The Hobbit" />
+      <h1>Harry Potter and the Prisoner of Azkaban</h1>
+      <p>by. J.K. Rowling</p>
+      <details>
+        <summary>About</summary>
+        <p>
+          Harry Potter and the Prisoner of Azkaban follows Harry’s third year at Hogwarts, where he faces soul-sucking Dementors, uncovers a shocking truth about his past, and learns that the escaped prisoner Sirius Black may not be the villain he was led to believe.
+        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 4.jpg" alt="Cover of The Hobbit" />
+      <h1>The Name of the Wind</h1>
+      <p>by. Patrick Rothfuss</p>
+      <details>
+        <summary>About</summary>
+        <p>
+          The Name of the Wind is a lyrical fantasy tale in which Kvothe, a gifted musician and magician, recounts his journey from a tragic childhood to his rise as a legendary figure, all while seeking truth behind the mysterious Chandrian and the power of naming.
+        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 5.jpg" alt="Cover of The Hobbit" />
+      <h1>Mistborn: The Final Empire</h1>
+      <p>by. Brandon Sanderson</p>
+      <details>
+        <summary>About</summary>
+        <p>
+          Mistborn: The Final Empire is a gritty, high-stakes fantasy where a streetwise girl named Vin joins a crew of rebels led by the charismatic Kelsier to overthrow a thousand-year-old tyrant using forbidden magic fueled by ingesting metals.
+        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 6.jpg" alt="Cover of The Hobbit" />
+      <h1>American Gods</h1>
+      <p>by. Neil Gaiman</p>
+      <details>
+        <summary>About</summary>
+        <p>
+            American Gods is a surreal, myth-infused road trip where ex-convict Shadow Moon becomes entangled in a brewing war between ancient gods fading from memory and modern deities born from technology, media, and consumerism.        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 7.jpg" alt="Cover of The Hobbit" />
+      <h1>The Night Circus</h1>
+      <p>by. Erin Morgenstern</p>
+      <details>
+        <summary>About</summary>
+        <p>
+            The Night Circus is a lush, dreamlike fantasy where two young magicians, Celia and Marco, are bound to a mysterious competition set within a magical, monochrome circus that only opens at night—unaware that falling in love could unravel everything.        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 8.jpg" alt="Cover of The Hobbit" />
+      <h1>A Wizard of Earthsea</h1>
+      <p>by. Ursula K. Le Guin</p>
+      <details>
+        <summary>About</summary>
+        <p>
+            A Wizard of Earthsea is a philosophical coming-of-age fantasy in which a gifted boy named Ged unleashes a dark shadow through reckless magic and must journey across the archipelago of Earthsea to confront it—ultimately learning that true power lies in knowing oneself.        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 9.jpg" alt="Cover of The Hobbit" />
+      <h1>The Fellowship of the Ring</h1>
+      <p>by. J.R.R. Tolkien</p>
+      <details>
+        <summary>About</summary>
+        <p>
+            The Fellowship of the Ring is an epic fantasy journey where Frodo Baggins, a humble hobbit, sets out with a diverse band of allies to destroy the corrupting One Ring and thwart the dark lord Sauron’s plan to conquer Middle-earth.        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+      <img src="b 10.jpg" alt="Cover of The Hobbit" />
+      <h1>The Golden Compass</h1>
+      <p>by. Philip Pullman</p>
+      <details>
+        <summary>About</summary>
+        <p>
+            The Golden Compass is a dazzling fantasy adventure where Lyra Belacqua, a fearless girl in a world of daemons and mysterious Dust, journeys to the Arctic to rescue kidnapped children and uncovers a cosmic conspiracy that spans parallel universes.        </p>
+      </details>
+      <button type="button" aria-label="Borrow The Hobbit">Borrow</button>
+            <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+        <img src="b 11.jpg" alt="Cover of The Fifth Season">
+        <h1>The Fifth Season</h1>
+        <p>by N.K. Jemisin</p>
+        <details>
+            <summary>about</summary>
+            <p>In a world plagued by apocalyptic seismic disasters, a grieving mother with earth-shattering powers must navigate a fractured society to find her daughter and confront a devastating truth about herself.</p>
+        </details>
+        <button type="button">Borrow</button>
+              <button type="button">Add to Cart 🛒</button>
+    </div>
+    
+    <div class="card">
+        <img src="b 12.jpg" alt="Cover of Howl’s Moving Castle">
+        <h1>Howl’s Moving Castle</h1>
+        <p>by Diana Wynne Jones</p>
+        <details>
+            <summary>about</summary>
+            <p>After being cursed into old age by a wicked witch, Sophie seeks refuge in the magical, ever-shifting castle of the flamboyant wizard Howl, where she discovers her own hidden strength and magic.</p>
+        </details>
+        <button type="button">Borrow</button>
+              <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+        <img src="b 13.jpg" alt="Cover of The Last Unicorn">
+        <h1>The Last Unicorn</h1>
+        <p>by Peter S. Beagle</p>
+        <details>
+            <summary>about</summary>
+            <p>A solitary unicorn sets out on a quest to discover the fate of her kind, encountering whimsical allies and dark forces in a poignant tale of identity, loss, and wonder.</p>
+        </details>
+        <button type="button">Borrow</button>
+              <button type="button">Add to Cart 🛒</button>
+    </div>
+
+    <div class="card">
+        <img src="b 14.jpg" alt="Cover of The Once and Future King">
+        <h1>The Once and Future King</h1>
+        <p>by T.H. White</p>
+        <details>
+            <summary>about</summary>
+            <p>A sweeping retelling of King Arthur’s life, from his enchanted boyhood under Merlyn’s guidance to the tragic unraveling of Camelot through love, betrayal, and the burden of idealism.</p>
+        </details>
+        <button type="button">Borrow</button>
+              <button type="button">Add to Cart 🛒</button>
+    </div>
+
+<div class="card">
+    <img src="b 15.jpg" alt="Cover of The Lion, the Witch and the Wardrobe">
+    <h1>The Lion, the Witch and the Wardrobe</h1>
+    <p>by C.S. Lewis</p>
+    <details>
+        <summary>about</summary>
+        <p>Four siblings step through a magical wardrobe into the land of Narnia, where they must help the noble lion Aslan defeat the White Witch and restore peace to a world trapped in eternal winter.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+</div>
+
+    <!-- End of book block -->
+  </div>
+<center><a href=""><-- EXPAND --></center></a>
+</body>
+</html>

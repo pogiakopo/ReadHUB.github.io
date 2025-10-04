@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>b Mystery/Thriller</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Science Fiction</h1></center>
+<div class="card-container">
+  <div class="card">
+    <img src="b 36.jpg" alt="Dune cover" />
+    <h1>Dune</h1>
+    <p>by Frank Herbert</p>
+    <details>
+      <summary>About</summary>
+      <p>A sprawling epic of politics, prophecy, and ecology on the desert planet Arrakis. A sci-fi classic of immense influence.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 37.jpg" alt="1984 cover" />
+    <h1>1984</h1>
+    <p>by George Orwell</p>
+    <details>
+      <summary>About</summary>
+      <p>A dystopian vision of total surveillance and thought control under Big Brother. Chilling and prophetic.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 38.jpg" alt="Foundation cover" />
+    <h1>Foundation</h1>
+    <p>by Isaac Asimov</p>
+    <details>
+      <summary>About</summary>
+      <p>Mathematician Hari Seldon predicts the fall of a galactic empire and sets out to preserve knowledge through the Foundation.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 39.jpg" alt="Neuromancer cover" />
+    <h1>Neuromancer</h1>
+    <p>by William Gibson</p>
+    <details>
+      <summary>About</summary>
+      <p>A washed-up hacker is hired for one last job in a gritty cyberpunk future. The novel that defined cyberspace.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 40.jpg" alt="The Left Hand of Darkness cover" />
+    <h1>The Left Hand of Darkness</h1>
+    <p>by Ursula K. Le Guin</p>
+    <details>
+      <summary>About</summary>
+      <p>An envoy to a planet where inhabitants are ambisexual must navigate politics and culture in this profound exploration of identity.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 41.jpg" alt="Brave New World cover" />
+    <h1>Brave New World</h1>
+    <p>by Aldous Huxley</p>
+    <details>
+      <summary>About</summary>
+      <p>A future society engineered for pleasure and stability faces disruption when individuality resurfaces.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 42.jpg" alt="Snow Crash cover" />
+    <h1>Snow Crash</h1>
+    <p>by Neal Stephenson</p>
+    <details>
+      <summary>About</summary>
+      <p>Pizza delivery guy and hacker Hiro Protagonist uncovers a digital virus threatening the real world. Wild and witty cyberpunk.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 43.jpg" alt="The Martian cover" />
+    <h1>The Martian</h1>
+    <p>by Andy Weir</p>
+    <details>
+      <summary>About</summary>
+      <p>Stranded on Mars, astronaut Mark Watney uses science and humor to survive. A thrilling and surprisingly funny survival tale.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 44.jpg" alt="Hyperion cover" />
+    <h1>Hyperion</h1>
+    <p>by Dan Simmons</p>
+    <details>
+      <summary>About</summary>
+      <p>Seven pilgrims share their stories on a journey to meet the mysterious Shrike. A richly layered space opera.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 45.jpg" alt="The Moon is a Harsh Mistress cover" />
+    <h1>The Moon is a Harsh Mistress</h1>
+    <p>by Robert A. Heinlein</p>
+    <details>
+      <summary>About</summary>
+      <p>A lunar colony revolts against Earth with the help of a sentient computer. A tale of rebellion and AI consciousness.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+</div>
+<center><a href=""><-- EXPAND --></center></a>
+</body>
+</html>

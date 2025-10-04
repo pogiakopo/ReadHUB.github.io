@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>b Historical Fiction</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Historical Fiction</h1></center>
+<div class="card-container">
+  <div class="card">
+    <img src="b 66.jpg" alt="The Book Thief cover" />
+    <h1>The Book Thief</h1>
+    <p>by Markus Zusak</p>
+    <details>
+      <summary>About</summary>
+      <p>Set in Nazi Germany, a young girl finds solace by stealing books and sharing them, while Death narrates her journey.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 67.jpg" alt="All the Light We Cannot See cover" />
+    <h1>All the Light We Cannot See</h1>
+    <p>by Anthony Doerr</p>
+    <details>
+      <summary>About</summary>
+      <p>A blind French girl and a German soldier cross paths during WWII in this Pulitzer-winning tale of resilience and fate.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 68.jpg" alt="The Nightingale cover" />
+    <h1>The Nightingale</h1>
+    <p>by Kristin Hannah</p>
+    <details>
+      <summary>About</summary>
+      <p>Two sisters in Nazi-occupied France fight to survive and resist, each in her own way. A tribute to women's wartime courage.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 69.jpg" alt="The Pillars of the Earth cover" />
+    <h1>The Pillars of the Earth</h1>
+    <p>by Ken Follett</p>
+    <details>
+      <summary>About</summary>
+      <p>A sweeping epic set in 12th-century England, centered around the building of a cathedral and the lives it transforms.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 70.jpg" alt="A Gentleman in Moscow cover" />
+    <h1>A Gentleman in Moscow</h1>
+    <p>by Amor Towles</p>
+    <details>
+      <summary>About</summary>
+      <p>A Russian count is sentenced to house arrest in a grand hotel during the Bolshevik Revolution. Elegant and poignant.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 71.jpg" alt="Gone with the Wind cover" />
+    <h1>Gone with the Wind</h1>
+    <p>by Margaret Mitchell</p>
+    <details>
+      <summary>About</summary>
+      <p>Set during the American Civil War, Scarlett O’Hara navigates love, loss, and survival in this Pulitzer-winning classic.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 72.jpg" alt="Homegoing cover" />
+    <h1>Homegoing</h1>
+    <p>by Yaa Gyasi</p>
+    <details>
+      <summary>About</summary>
+      <p>A multigenerational saga tracing the legacy of slavery through two sisters and their descendants across continents.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 73.jpg" alt="Alias Grace cover" />
+    <h1>Alias Grace</h1>
+    <p>by Margaret Atwood</p>
+    <details>
+      <summary>About</summary>
+      <p>Based on a true story, a young woman accused of murder recounts her tale to a psychiatrist seeking the truth.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 74.jpg" alt="The Red Tent cover" />
+    <h1>The Red Tent</h1>
+    <p>by Anita Diamant</p>
+    <details>
+      <summary>About</summary>
+      <p>A reimagining of the biblical story of Dinah, exploring ancient womanhood, family, and survival through her eyes.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+
+  <div class="card">
+    <img src="b 75.jpg" alt="The Luminaries cover" />
+    <h1>The Luminaries</h1>
+    <p>by Eleanor Catton</p>
+    <details>
+      <summary>About</summary>
+      <p>Set in 19th-century New Zealand, this Booker Prize-winning novel weaves mystery, astrology, and historical intrigue.</p>
+    </details>
+    <button type="button">Borrow</button>
+          <button type="button">Add to Cart 🛒</button>
+  </div>
+</div>
+<center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

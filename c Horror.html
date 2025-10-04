@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Horror</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<center><h1>Horror</h1></center>
+<div class="card-container">
+
+<!-- 1. The Shining -->
+<div class="card">
+  <img src="c 81.jpg" alt="The Shining Poster" />
+  <h1>The Shining</h1>
+  <p>by Stanley Kubrick</p>
+  <details>
+    <summary>About</summary>
+    <p>A writer descends into madness while isolated in a haunted hotel with his family.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. Psycho -->
+<div class="card">
+  <img src="c 65.jpg" alt="Psycho Poster" />
+  <h1>Psycho</h1>
+  <p>by Alfred Hitchcock</p>
+  <details>
+    <summary>About</summary>
+    <p>A secretary on the run checks into a secluded motel run by a mysterious man and his mother.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. The Exorcist -->
+<div class="card">
+  <img src="c 83.jpg" alt="The Exorcist Poster" />
+  <h1>The Exorcist</h1>
+  <p>by William Friedkin</p>
+  <details>
+    <summary>About</summary>
+    <p>A young girl is possessed by a demonic entity, prompting a priest to perform an exorcism.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. Halloween -->
+<div class="card">
+  <img src="c 84.jpg" alt="Halloween Poster" />
+  <h1>Halloween</h1>
+  <p>by John Carpenter</p>
+  <details>
+    <summary>About</summary>
+    <p>A masked killer stalks babysitters on Halloween night in a quiet suburban town.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. A Nightmare on Elm Street -->
+<div class="card">
+  <img src="c 85.jpg" alt="Nightmare on Elm Street Poster" />
+  <h1>A Nightmare on Elm Street</h1>
+  <p>by Wes Craven</p>
+  <details>
+    <summary>About</summary>
+    <p>Teens are hunted in their dreams by a vengeful spirit with a bladed glove.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. Hereditary -->
+<div class="card">
+  <img src="c 86.jpg" alt="Hereditary Poster" />
+  <h1>Hereditary</h1>
+  <p>by Ari Aster</p>
+  <details>
+    <summary>About</summary>
+    <p>A grieving family uncovers terrifying secrets about their ancestry and fate.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. Get Out -->
+<div class="card">
+  <img src="c 87.jpg" alt="Get Out Poster" />
+  <h1>Get Out</h1>
+  <p>by Jordan Peele</p>
+  <details>
+    <summary>About</summary>
+    <p>A Black man uncovers a disturbing secret when visiting his white girlfriend’s family estate.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. The Texas Chain Saw Massacre -->
+<div class="card">
+  <img src="c 88.jpg" alt="Texas Chain Saw Poster" />
+  <h1>The Texas Chain Saw Massacre</h1>
+  <p>by Tobe Hooper</p>
+  <details>
+    <summary>About</summary>
+    <p>A group of friends fall victim to a cannibalistic family in rural Texas.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. Rosemary's Baby -->
+<div class="card">
+  <img src="c 89.jpg" alt="Rosemary's Baby Poster" />
+  <h1>Rosemary's Baby</h1>
+  <p>by Roman Polanski</p>
+  <details>
+    <summary>About</summary>
+    <p>A pregnant woman suspects sinister forces are conspiring against her unborn child.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. The Ring -->
+<div class="card">
+  <img src="c 90.jpg" alt="The Ring Poster" />
+  <h1>The Ring</h1>
+  <p>by Gore Verbinski</p>
+  <details>
+    <summary>About</summary>
+    <p>A cursed videotape causes viewers to die seven days after watching it.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. The Babadook -->
+<div class="card">
+  <img src="c 91.jpg" alt="The Babadook Poster" />
+  <h1>The Babadook</h1>
+  <p>by Jennifer Kent</p>
+  <details>
+    <summary>About</summary>
+    <p>A mother and son are haunted by a sinister storybook creature.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. Scream -->
+<div class="card">
+  <img src="c 92.jpg" alt="Scream Poster" />
+  <h1>Scream</h1>
+  <p>by Wes Craven</p>
+  <details>
+    <summary>About</summary>
+    <p>A masked killer stalks teens in a town obsessed with horror movie tropes.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. The Conjuring -->
+<div class="card">
+  <img src="c 93.jpg" alt="The Conjuring Poster" />
+  <h1>The Conjuring</h1>
+  <p>by James Wan</p>
+  <details>
+    <summary>About</summary>
+    <p>Paranormal investigators help a family tormented by dark forces in their farmhouse.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. It -->
+<div class="card">
+  <img src="c 94.jpg" alt="It Poster" />
+  <h1>It</h1>
+  <p>by Andy Muschietti</p>
+  <details>
+    <summary>About</summary>
+    <p>A group of kids face off against a shape-shifting clown that feeds on fear.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. Jaws -->
+<div class="card">
+  <img src="c 95.jpg" alt="Jaws Poster" />
+  <h1>Jaws</h1>
+  <p>by Steven Spielberg</p>
+  <details>
+    <summary>About</summary>
+    <p>A great white shark terrorizes a beach town, prompting a hunt to stop it.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. The Silence of the Lambs -->
+<div class="card">
+  <img src="c 67.jpg" alt="Silence of the Lambs Poster" />
+  <h1>The Silence of the Lambs</h1>
+  <p>by Jonathan Demme</p>
+  <details>
+    <summary>About</summary>
+    <p>A young FBI trainee seeks help from a brilliant but imprisoned cannibal to catch a serial killer.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+</div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

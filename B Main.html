@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Main</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color: #e0e0e0;
+        }
+
+        div {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 10px;
+            background: linear-gradient(135deg, #f8e756, #f7971d, #ffd200);
+            border-radius: 50px;
+            box-shadow: 0 0 40px #f8e756, 0 0 80px #f7971d, 0 0 160px #ffd200;
+            opacity: 0.95;
+            transition: all 0.3s ease;
+            animation: neon 1s ease alternate infinite, fadeIn 1s ease;
+        }
+        div:hover {
+            transform: scale(1.05) translateY(-10px);
+            opacity: 1;
+        }
+        @keyframes neon {
+            from { box-shadow: 0 0 40px #f8e756, 0 0 80px #f7971d, 0 0 160px #ffd200; transform: scale(1.05); }
+            to { box-shadow: 0 0 20px #f8e756, 0 0 40px #f7971d, 0 0 80px #ffd200; transform: scale(1); }
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.85) translateY(-100px) rotate(180deg); box-shadow: 0; }
+            50% { opacity: 0.5; transform: scale(1.05) translateY(50px) rotate(135deg); box-shadow: 0; }
+            75% { opacity: 0.75; transform: scale(0.95) translateY(-25px) rotate(90); box-shadow: 0; }
+            90% { opacity: 0.9; transform: scale(1.02) translateY(15px) rotate(45deg); box-shadow: 1; }
+            100% { opacity: 0.95; transform: scale(1) translateY(0) rotate(0); box-shadow: 1; }
+        }
+
+        h1 {
+            color: #000000;
+            text-align: center;
+        }
+        img {
+            height: 60px;
+            vertical-align: middle;
+            filter: drop-shadow(0 0 10px #f8e756) drop-shadow(0 0 20px #f7971d) drop-shadow(0 0 30px #ffd200);
+            border-radius: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+            padding: 20px;
+            border-radius: 20px;
+            color: #b8ff55;
+            text-shadow: lime 0 0 20px;
+            background: linear-gradient(135deg, #3a3a3a, #696969, #b7b7b7);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to Books!
+        </h1>
+        <p>
+            At Read Hub, we believe in the power of stories to inspire, educate, and entertain. Our mission is to provide a comprehensive platform where book lovers, bloggers, and movie enthusiasts can come together to explore and share their passions.
+        </p>
+        <p>
+            Explore our curated collection of books, dive into insightful blogs, and stay updated with the latest in movies and media. Whether you're a passionate reader or just looking for something new, Read Hub has something for everyone.
+        </p>
+        <p>
+            Start your journey by browsing our genres, searching for your interests, or connecting with our community. Thank you for visiting Read Hub—where every page opens a new adventure!
+        </p>
+    </div>
+</body>
+</html>

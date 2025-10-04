@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>c Adventure</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Action</h1></center>
+  <div class="card-container">
+
+<!-- 1. Indiana Jones: Raiders of the Lost Ark -->
+<div class="card">
+  <img src="c 17.jpg" alt="Indiana Jones Poster" />
+  <h1>Indiana Jones: Raiders of the Lost Ark</h1>
+  <p>by Steven Spielberg</p>
+  <details>
+    <summary>About</summary>
+    <p>An archaeologist races Nazis to find the Ark of the Covenant in this thrilling globe-trotting adventure.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 2. The Lord of the Rings: The Fellowship of the Ring -->
+<div class="card">
+  <img src="c 18.jpg" alt="LOTR Poster" />
+  <h1>The Lord of the Rings: The Fellowship of the Ring</h1>
+  <p>by Peter Jackson</p>
+  <details>
+    <summary>About</summary>
+    <p>A hobbit and his companions set out to destroy a powerful ring and save Middle-earth from evil.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 3. Jurassic Park -->
+<div class="card">
+  <img src="c 19.jpg" alt="Jurassic Park Poster" />
+  <h1>Jurassic Park</h1>
+  <p>by Steven Spielberg</p>
+  <details>
+    <summary>About</summary>
+    <p>Scientists clone dinosaurs for a theme park, but nature proves uncontrollable in this thrilling adventure.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 4. The Goonies -->
+<div class="card">
+  <img src="c 20.jpg" alt="The Goonies Poster" />
+  <h1>The Goonies</h1>
+  <p>by Richard Donner</p>
+  <details>
+    <summary>About</summary>
+    <p>A group of kids discover a treasure map and embark on a wild underground adventure to save their homes.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 5. The Treasure of the Sierra Madre -->
+<div class="card">
+  <img src="c 21.jpg" alt="Sierra Madre Poster" />
+  <h1>The Treasure of the Sierra Madre</h1>
+  <p>by John Huston</p>
+  <details>
+    <summary>About</summary>
+    <p>Three men search for gold in the Mexican wilderness, but greed and paranoia threaten their bond.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 6. The Adventures of Robin Hood -->
+<div class="card">
+  <img src="c 22.jpg" alt="Robin Hood Poster" />
+  <h1>The Adventures of Robin Hood</h1>
+  <p>by Michael Curtiz & William Keighley</p>
+  <details>
+    <summary>About</summary>
+    <p>Robin Hood leads a band of rebels against Prince John’s tyranny in this swashbuckling Technicolor classic.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 7. Back to the Future -->
+<div class="card">
+  <img src="c 23.jpg" alt="Back to the Future Poster" />
+  <h1>Back to the Future</h1>
+  <p>by Robert Zemeckis</p>
+  <details>
+    <summary>About</summary>
+    <p>A teenager travels back to 1955 and must ensure his parents fall in love—or risk erasing his own existence.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 8. Star Wars: The Empire Strikes Back -->
+<div class="card">
+  <img src="c 24.jpg" alt="Empire Strikes Back Poster" />
+  <h1>Star Wars: The Empire Strikes Back</h1>
+  <p>by Irvin Kershner</p>
+  <details>
+    <summary>About</summary>
+    <p>Luke trains with Yoda while the Empire hunts the Rebels in this darker, deeper chapter of the saga.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 9. Avatar -->
+<div class="card">
+  <img src="c 25.jpg" alt="Avatar Poster" />
+  <h1>Avatar</h1>
+  <p>by James Cameron</p>
+  <details>
+    <summary>About</summary>
+    <p>A paraplegic Marine enters a genetically engineered alien body and fights to protect Pandora from human exploitation.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 10. Jumanji (1995) -->
+<div class="card">
+  <img src="c 26.jpg" alt="Jumanji Poster" />
+  <h1>Jumanji (1995)</h1>
+  <p>by Joe Johnston</p>
+  <details>
+    <summary>About</summary>
+    <p>A magical board game unleashes jungle chaos into the real world, and only finishing the game can stop it.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 11. Uncharted -->
+<div class="card">
+  <img src="c 27.jpg" alt="Uncharted Poster" />
+  <h1>Uncharted</h1>
+  <p>by Ruben Fleischer</p>
+  <details>
+    <summary>About</summary>
+    <p>Young treasure hunter Nathan Drake teams up with Sully to find Magellan’s lost gold in this globe-trotting adventure.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 12. The Revenant -->
+<div class="card">
+  <img src="c 28.jpg" alt="The Revenant Poster" />
+  <h1>The Revenant</h1>
+  <p>by Alejandro G. Iñárritu</p>
+  <details>
+    <summary>About</summary>
+    <p>After being mauled by a bear and left for dead, a frontiersman fights to survive and seek revenge in the icy wilderness.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 13. Mad Max: Fury Road -->
+<div class="card">
+  <img src="c 29.jpg" alt="Mad Max Poster" />
+  <h1>Mad Max: Fury Road</h1>
+  <p>by George Miller</p>
+  <details>
+    <summary>About</summary>
+    <p>In a post-apocalyptic desert, Max joins Furiosa to escape a tyrant and lead a high-octane road war.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 14. Monty Python and the Holy Grail -->
+<div class="card">
+  <img src="c 30.jpg" alt="Monty Python Poster" />
+  <h1>Monty Python and the Holy Grail</h1>
+  <p>by Terry Gilliam & Terry Jones</p>
+  <details>
+    <summary>About</summary>
+    <p>A hilariously absurd quest for the Holy Grail, filled with killer rabbits, coconut horses, and medieval nonsense.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 15. Hunt for the Wilderpeople -->
+<div class="card">
+  <img src="c 31.jpg" alt="Hunt for the Wilderpeople Poster" />
+  <h1>Hunt for the Wilderpeople</h1>
+  <p>by Taika Waititi</p>
+  <details>
+    <summary>About</summary>
+    <p>A rebellious boy and his grumpy foster uncle go on the run in the New Zealand bush, sparking a nationwide manhunt.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+
+<!-- 16. Indiana Jones and the Last Crusade -->
+<div class="card">
+  <img src="c 32.jpg" alt="Last Crusade Poster" />
+  <h1>Indiana Jones and the Last Crusade</h1>
+  <p>by Steven Spielberg</p>
+  <details>
+    <summary>About</summary>
+    <p>Indy teams up with his father to find the Holy Grail before the Nazis do, in a thrilling mix of action and heart.</p>
+  </details>
+  <button type="button">Buy</button>
+  <button type="button">Add to Cart 🛒</button>
+</div>
+  </div>
+  <center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>b Horror</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #232526 0%, #121212 100%);
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1em;
+      padding: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex: 1 1 220px;
+      max-width: 260px;
+      padding: 20px 14px 16px 14px;
+      background: #23272a;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: box-shadow 0.3s;
+      height: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    details {
+      margin-bottom: 12px;
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .card button:hover {
+      background: linear-gradient(90deg, #ff5722 0%, #ff9800 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Horror</h1></center>
+  <div class="card-container">
+<div class="card">
+  <img src="b 76.jpg" alt="Frankenstein cover" />
+  <h1>Frankenstein</h1>
+  <p>by Mary Shelley</p>
+  <details>
+    <summary>About</summary>
+    <p>The tragic tale of Victor Frankenstein and the creature he brings to life. A gothic masterpiece that explores creation and isolation.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 77.jpg" alt="Dracula cover" />
+  <h1>Dracula</h1>
+  <p>by Bram Stoker</p>
+  <details>
+    <summary>About</summary>
+    <p>The original vampire novel that introduced Count Dracula and set the standard for supernatural horror.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 78.jpg" alt="The Shining cover" />
+  <h1>The Shining</h1>
+  <p>by Stephen King</p>
+  <details>
+    <summary>About</summary>
+    <p>A haunted hotel, a psychic child, and a father descending into madness. One of King’s most terrifying works.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 79.jpg" alt="Pet Sematary cover" />
+  <h1>Pet Sematary</h1>
+  <p>by Stephen King</p>
+  <details>
+    <summary>About</summary>
+    <p>A burial ground that brings the dead back to life—but at a horrifying cost. A chilling exploration of grief and consequence.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 80.jpg" alt="The Haunting of Hill House cover" />
+  <h1>The Haunting of Hill House</h1>
+  <p>by Shirley Jackson</p>
+  <details>
+    <summary>About</summary>
+    <p>A group of strangers investigates a haunted mansion, only to find the house may be alive. A psychological and supernatural classic.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 81.jpg" alt="We Have Always Lived in the Castle cover" />
+  <h1>We Have Always Lived in the Castle</h1>
+  <p>by Shirley Jackson</p>
+  <details>
+    <summary>About</summary>
+    <p>Two sisters live in isolation after a family tragedy. A gothic tale of paranoia, mystery, and dark secrets.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 82.jpg" alt="American Psycho cover" />
+  <h1>American Psycho</h1>
+  <p>by Bret Easton Ellis</p>
+  <details>
+    <summary>About</summary>
+    <p>A disturbing descent into the mind of a wealthy New York serial killer. Satirical, brutal, and unforgettable.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 83.jpg" alt="The Exorcist cover" />
+  <h1>The Exorcist</h1>
+  <p>by William Peter Blatty</p>
+  <details>
+    <summary>About</summary>
+    <p>A young girl is possessed by a demonic force, and two priests must confront evil itself. A terrifying tale of faith and horror.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 84.jpg" alt="House of Leaves cover" />
+  <h1>House of Leaves</h1>
+  <p>by Mark Z. Danielewski</p>
+  <details>
+    <summary>About</summary>
+    <p>A labyrinthine novel about a house that defies physics. Experimental, eerie, and deeply unsettling.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+
+<div class="card">
+  <img src="b 85.jpg" alt="Interview with the Vampire cover" />
+  <h1>Interview with the Vampire</h1>
+  <p>by Anne Rice</p>
+  <details>
+    <summary>About</summary>
+    <p>The story of Louis and Lestat, two vampires navigating immortality, morality, and desire. Gothic and seductive.</p>
+  </details>
+  <button type="button">Borrow</button>
+        <button type="button">Add to Cart 🛒</button>
+</div>
+</div>
+<center><a href=""><-- EXPAND --></a></center>
+</body>
+</html>

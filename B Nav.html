@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Nav</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 1em;
+            background-color: #1b1b1b;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 0.5em;
+            scrollbar-width: thin;
+            scrollbar-color: #555 #1b1b1b;
+            align-items: center;
+            border: double 4px rgba(255, 255, 255, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1.3em 1.5em;
+            background-color: #333;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            transform: scale(1.05);
+            background-color: #f7971d;
+            color: black;
+            box-shadow: 
+                    0 0 50px #ff971d, 
+                    0 0 100px #ff971d, 
+                    0 0 150px #ff971d;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="b Fantasy.html" target="mainBooks">Fantasy</a> -
+        <a href="b Romance.html" target="mainBooks">Romance</a> -
+        <a href="b Mystery-Thriller.html" target="mainBooks">Mystery/Thriller</a> -
+        <a href="b Science Fiction.html" target="mainBooks">Science Fiction</a> -
+        <a href="b True Crime.html" target="mainBooks">True Crime</a> -
+        <a href="b Young Adult (YA).html" target="mainBooks">Young Adult (YA)</a> -
+        <a href="b Historical Fiction.html" target="mainBooks">Historical Fiction</a> -
+        <a href="b Horror.html" target="mainBooks">Horror</a> -
+        <a href="b Biography Autobiography.html" target="mainBooks">Biography/Autobiography</a> -
+        <a href="b Self-Help.html" target="mainBooks">Self-Help</a>
+    </nav>
+</body>
+</html>
